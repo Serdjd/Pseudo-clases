@@ -1,0 +1,77 @@
+body :not(h1){
+    color: #336699;
+}
+p i:first-child{
+    color:red;
+}
+p i:last-child{
+    color:black;
+}
+p:nth-of-type(1){
+    color:blue;
+}
+p:nth-of-type(2){
+    color:black;
+}
+p:last-of-type:not(div > p):hover{
+    background-color: yellow;
+}
+div:hover{
+    border: 0.2dvh;
+    border-color: black;
+    border-style:solid;
+    border-radius: 1dvh;
+    padding: 0 1dvh;
+}
+form :focus{
+    background-color: lightblue;
+}
+input[type="radio"]:checked,
+input[type="radio"]:checked + label{
+    border: 0.1dvh;
+    border-color: coral;
+    border-style:solid;
+    border-radius: 1dvh;
+    padding: 0 1dvh;
+}
+input[type="number"]:valid{
+    border-style:solid;
+    border-color: green;
+    border-radius: 1dvh;
+    text-align: center;
+}
+input[type="number"]:invalid{
+    border-style:solid;
+    border-color: red;
+    border-radius: 1dvh;
+    text-align: center;
+}
+input[type="email"]:invalid{
+    border-style:solid;
+    border-color: red;
+    border-radius: 1dvh;
+    text-align: center;
+}
+input[type="email"]:valid{
+    border-style:solid;
+    border-color: green;
+    border-radius: 1dvh;
+    text-align: center;
+}
+input:read-write{
+    margin: 1dvh 0;
+}
+a:link{
+    color: pink;
+}
+a:visited{
+    color:purple;
+}
+a:hover{
+    color: red;
+}
+input:last-of-type{
+    background-color: bisque;
+    display: block;
+    margin-top: 1dvh;
+}

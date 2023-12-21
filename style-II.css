@@ -1,0 +1,18 @@
+article h1:first-child{
+    color:red
+}
+article p:first-of-type{
+    color: green;
+}
+article p:last-of-type{
+    color: blue;
+}
+article h2:last-of-type{
+    color:magenta;
+}
+p em{
+    color:darkseagreen;
+}
+p strong{
+    color:aquamarine;
+}
