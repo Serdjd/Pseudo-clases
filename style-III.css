@@ -18,3 +18,11 @@ p::first-line{
 li::marker{
     color:red;
 }
+input{
+    display:flex;
+    justify-content: space-between;
+    margin: 1dvh 0;
+}
+input::placeholder{
+    color:orange;
+}
