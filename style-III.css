@@ -1,0 +1,20 @@
+h1::after{
+    content: " -";
+}
+h2::before{
+    content: "*";
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
+.capital::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+p::first-line{
+    font-weight: bold;
+}
+li::marker{
+    color:red;
+}
